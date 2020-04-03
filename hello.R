@@ -6,4 +6,4 @@ add_1 <- function(x){
 }
 
 # using add_1 to add 1 plus 1
-add_1(5)
+add_1(2)
