@@ -7,5 +7,9 @@ output: html_document
 
 ```{r setup, include=FALSE}
 library(tidyverse)
+
+ggplot(mtcars) +
+  geom_point(aes(x = cyl, y = wt)) +
+  theme_minimal()
 ```
 
