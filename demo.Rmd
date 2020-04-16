@@ -9,7 +9,7 @@ output: html_document
 library(tidyverse)
 
 ggplot(mtcars) +
-  geom_point(aes(x = cyl, y = wt), color = 'blue') +
+  geom_point(aes(x = cyl, y = wt)) +
   theme_minimal()
 ```
 
